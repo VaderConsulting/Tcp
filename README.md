@@ -1,6 +1,6 @@
 # Tcp
 
-VB6 working copy of `Tcp` from Dave Robinson's OneDrive Historical Dev `VB` folder. Project title: TCP.
+VB6 ActiveX DLL (`TCP`) wrapping Oleg Gdalevich's `CSocket` Winsock API class (`ws2_32`) plus a thin `Peer` server helper that listens for connection requests — an alternative to the MS Winsock OCX. Distinct from sibling `TCPClient` / `TCPServer` logon apps. Open `Tcppeer.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** ActiveX DLL
 
@@ -8,7 +8,7 @@ VB6 working copy of `Tcp` from Dave Robinson's OneDrive Historical Dev `VB` fold
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `TCP` (`Tcppeer.vbp`) | VB6 | ActiveX DLL | TCP |
+| `TCP` (`Tcppeer.vbp`) | VB6 | ActiveX DLL | CSocket Winsock wrapper + Peer helper |
 
 ## How to open
 
@@ -22,7 +22,8 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 ## Attribution and provenance
 
 Working copy from Dave Robinson's OneDrive Historical Dev folder `VB/Tcp`.
+`CSocket` / `MSocketSupport` attribution in source: Oleg Gdalevich, vbip.com (2002).
 
 ## License
 
-MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
+MIT © 2026 VaderConsulting for Dave Robinson's packaging; third-party `CSocket` remains under its original terms (or none, where none were supplied).
