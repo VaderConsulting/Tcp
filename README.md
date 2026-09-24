@@ -21,7 +21,7 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 
 ## Attribution and provenance
 
-Working copy from Dave Robinson's OneDrive Historical Dev folder `VB/Tcp`.
+Working copy from my Historical Dev folder `VB/Tcp`.
 `CSocket` / `MSocketSupport` attribution in source: Oleg Gdalevich, vbip.com (2002).
 
 ## License
