@@ -1,8 +1,8 @@
 # Tcp
 
-VB6 ActiveX DLL (`TCP`) wrapping Oleg Gdalevich's `CSocket` Winsock API class (`ws2_32`) plus a thin `Peer` server helper that listens for connection requests — an alternative to the MS Winsock OCX. Distinct from sibling `TCPClient` / `TCPServer` logon apps. Open `Tcppeer.vbp` in the VB6 IDE.
+VB6 ActiveX DLL (`TCP`) wrapping Oleg Gdalevich's `CSocket` Winsock API class (`ws2_32`) plus a thin `Peer` server helper that listens for connection requests, an alternative to the MS Winsock OCX. Distinct from sibling `TCPClient` / `TCPServer` logon apps. Open `Tcppeer.vbp` in the VB6 IDE.
 
-**Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** ActiveX DLL
+**Source last updated:** 2003-02-10 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** ActiveX DLL
 
 ## Solution structure
 
