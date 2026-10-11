@@ -26,4 +26,4 @@ Working copy from my Historical Dev folder `VB/Tcp`.
 
 ## License
 
-MIT © 2026 VaderConsulting for Dave Robinson's packaging; third-party `CSocket` remains under its original terms (or none, where none were supplied).
+MIT © 2026 Vader Consulting for Dave Robinson's packaging; third-party `CSocket` remains under its original terms (or none, where none were supplied).
